@@ -412,9 +412,8 @@ header{
     .submenu button i{
         font-size: 25px;
     }
-    .submenu p{
-        visibility: hidden;
-        opacity: 0;
+    .newstext{
+        font-size: 0.95rem;
     }
 }
 /* Gallery */
