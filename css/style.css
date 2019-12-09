@@ -200,6 +200,7 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    height: auto;
 }
 .text h2, p{
     padding: 5px;
@@ -275,6 +276,11 @@ header{
         order: 1;
         flex-basis: 100%;
         margin-top: -5px;
+        max-height: auto;
+    }
+    .text{
+        height: auto;
+        padding: 10px;
     }
     .mobilemenu{
         position: fixed;
@@ -318,7 +324,7 @@ header{
         max-width: 100%;
     } 
 }
-@media (max-width:510px){
+@media (max-width:565px){
     .textWrapper{
         display: flex;
         flex-wrap: wrap;
@@ -367,10 +373,6 @@ header{
     width: 280px;
     padding: 5px;
     margin: 0;
-    max-width: 100%;
-}
-.submenu p{
-    width: 280px;
     max-width: 100%;
 }
 .submenu button{
